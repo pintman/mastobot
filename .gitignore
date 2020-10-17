@@ -1,0 +1,7 @@
+.vscode/
+venv/
+
+lni_clientcred.secret
+lni_usercred.secret
+
+config.py
