@@ -1,3 +1,6 @@
+# Copy this file to config.py and change the settings to your needs.
+#
+
 import datetime
 
 EVENT_URL = 'https://example.com'
