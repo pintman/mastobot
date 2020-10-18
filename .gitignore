@@ -5,3 +5,4 @@ lni_clientcred.secret
 lni_usercred.secret
 
 config.py
+deploy.sh
