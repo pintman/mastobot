@@ -4,6 +4,7 @@ from config import MASTODON_USER, MASTODON_PASSWORD, TARGET_DATE, \
     TOOT_TEMPLATE
 import datetime
 
+# TODO add announcements of sessions.
 
 def toot(msg):
     mastodon = Mastodon(
