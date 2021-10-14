@@ -23,7 +23,7 @@ def toot(msg):
     print(f'Posting: {msg}')
 
 def main():
-    datediff = TARGET_DATE - datetime.date.today()
+    datediff = TARGET_DATE - datetime.datetime.now()
     if datediff.days > 0:
         message = TOOT_TEMPLATE.format(days=datediff.days, link=EVENT_URL)
         toot(message)
