@@ -1,8 +1,12 @@
+__pycache__/
 .vscode/
 venv/
 
 lni_clientcred.secret
 lni_usercred.secret
+springbreak_clientcred.secret 
+springbreak_usercred.secret
 
 config.py
 deploy.sh
+poetry.lock
