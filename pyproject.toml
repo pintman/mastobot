@@ -6,6 +6,7 @@ authors = ["Pintman <pintman@0xabc.de>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+# https://github.com/halcy/Mastodon.py/blob/master/CHANGELOG.rst
 "Mastodon.py" = "^1.5.1"
 
 [tool.poetry.dev-dependencies]
